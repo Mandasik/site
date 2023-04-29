@@ -2,16 +2,19 @@ body {
     font-family: Brush Script MT, FreeMono;
     line-height: 2.5;
 
-    background-color: #ecbf83;
-    color: #4b2626;
-    
     border-color: #4b2626;
     border-style: double;
     border-width: 2px;
+
+    background-color: #ecbf83;
+    color: #4b2626;
   
     width: 880px;
     margin: 0 auto;
-  }
+    /* margin с такими параметрами, 
+    при заданном свойстве width, 
+    центрует элемент по горизонтали*/
+}
 h1 {
     text-align: center;
     margin-bottom: 0;
@@ -28,11 +31,11 @@ h2 {
 }
 .fire {
     background-color: #f76e6e;
+    margin: 0, 0, 0, 0;
+    padding: 0, 0, 0, 0;
     border-color: #975757;
     border-style: double;
     border-width: 4px;
-    margin: 0, 0, 0, 0;
-    padding: 0, 0, 0, 0;
 }
 .study {
     font-size: 20px;
@@ -40,11 +43,11 @@ h2 {
 }
 .green {
     background-color: #6bf182;
+    margin: 0, 0, 0, 0;
+    margin: 0, 0, 0, 0;
     border-color: #975757;
     border-style: double;
     border-width: 4px;
-    margin: 0, 0, 0, 0;
-    padding: 0, 0, 0, 0;
 }
 .water {
     font-size: 18px;
