@@ -28,6 +28,9 @@ h2 {
 }
 .fire {
     background-color: #f76e6e;
+    border-color: #975757;
+    border-style: double;
+    border-width: 4px;
 }
 .study {
     font-size: 20px;
@@ -35,6 +38,9 @@ h2 {
 }
 .green {
     background-color: #6bf182;
+    border-color: #975757;
+    border-style: double;
+    border-width: 4px;
 }
 .water {
     font-size: 18px;
