@@ -1,11 +1,17 @@
+@font-face {
+    font-family: "prot";
+    src:url("./MarckScript-Regular.ttf")
+}
+
 body {
-    font-family: Brush Script MT, FreeMono, serif;
+    font-family: prot;
     line-height: 2.5;
-    
+
     border: 4px groove #4b2626;
+    /* width, style и color*/
 
     background-color: #ecbf83;
-    color: #4b2626;
+    color: #532424;
   
     width: 880px;
     margin: 0 auto;
@@ -13,37 +19,58 @@ body {
     при заданном свойстве width, 
     центрует элемент по горизонтали*/
 }
+
+* {
+    box-sizing: border-box;
+    /* Значения padding и border не будут добавлены к ширине блока.
+    Ширина блока определяется только контентом внутри 
+    или значениями width/height*/
+}
+/* таким образом указывается что ко всем элементам 
+в html будет применено box-sizing: border-box; */
 h1 {
     text-align: center;
     margin-bottom: 0;
     padding-bottom: 0;
 }
+
 h3 {
     text-align: center;
     margin-top: 0;
     padding-top: 0;
 }
+
 h2 {
     text-align: left;
     font-style: italic;
 }
+
 .fire {
     background-color: #f76e6e;
     margin: 0;
-    padding: 0;
-    border: 4px groove #4b2626;
+    padding: 0 0 0 0;
+    border-color: #975757;
+    border-style: groove;
+    border-width: 4px;
 }
+
 .study {
     font-size: 20px;
     line-height: 1.5;
 }
+
 .green {
     background-color: #6bf182;
     margin: 0;
-    padding: 0;
-    border: 4px groove #4b2626;
+    border-color: #975757;
+    border-style: groove;
+    border-width: 4px;
 }
+
 .water {
     font-size: 18px;
     line-height: 1.6;
+    color: inherit;
+    /* свойство color с таким значением наследует значение цвета из
+    ближайшего родительского элемента, в данном случае из body*/
 }
