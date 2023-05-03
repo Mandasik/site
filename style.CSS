@@ -21,10 +21,6 @@ body {
     центрует элемент по горизонтали*/
 }
 
-.full {
-    width: 100vw;
-    height: 100vh;
-}
 
 * {
     box-sizing: border-box;
