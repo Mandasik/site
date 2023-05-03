@@ -3,11 +3,6 @@
     src: url("./MarckScript-Regular.ttf");
 }
 
-html {
-    width: 100vw;
-    height: 100vh;
-}
-
 body {
     font-family: prot;
     line-height: 2.5;
@@ -23,6 +18,11 @@ body {
     /* margin с такими параметрами, 
     при заданном свойстве width, 
     центрует элемент по горизонтали*/
+}
+
+.full {
+    width: 100vw;
+    height: 100vh;
 }
 
 * {
