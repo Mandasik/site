@@ -14,8 +14,7 @@ body {
     color: #532424;
   
     width: 100vw;
-    height: 100vh;
-    margin: 0 auto;
+    margin: 0;
     /* margin с такими параметрами, 
     при заданном свойстве width, 
     центрует элемент по горизонтали*/
