@@ -13,7 +13,8 @@ body {
     background-color: #ecbf83;
     color: #532424;
   
-    width: 880px;
+    width: 100vw;
+    height: 100vh;
     margin: 0 auto;
     /* margin с такими параметрами, 
     при заданном свойстве width, 
